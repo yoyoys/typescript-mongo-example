@@ -1,0 +1,27 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-prettier",
+    "tslint-config-standard"
+    // "tslint:recommended",
+  ],
+  "jsRules": {},
+  "rules": {
+    "max-line-length": {
+      "options": [120],
+      "severity": "warn"
+    },
+    "no-console": {
+      "severity": "warning",
+      "options": [
+          "debug",
+          "info",
+          "log",
+          "time",
+          "timeEnd",
+          "trace"
+      ]
+    }
+  },
+  "rulesDirectory": []
+}
